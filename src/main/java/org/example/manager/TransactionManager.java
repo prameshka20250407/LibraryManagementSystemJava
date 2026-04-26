@@ -6,6 +6,7 @@ import org.example.util.Validation;
 
 import java.util.ArrayList;
 import java.util.List;
+//Transaction Manager class
 
 public class TransactionManager {
 

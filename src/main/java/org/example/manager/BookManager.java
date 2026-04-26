@@ -6,6 +6,7 @@ import org.example.util.Validation;
 
 import java.util.ArrayList;
 import java.util.List;
+//Book Manager class
 
 public class BookManager {
     private List<Book> books = new ArrayList<>();
