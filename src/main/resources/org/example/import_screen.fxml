@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gui.controllers.ImportController">
+    <children>
+        <Label layoutX="154.0" layoutY="14.0" text="Importing CSV files to memory">
+            <font>
+                <Font name="Arial" size="21.0" />
+            </font>
+        </Label>
+        <Button fx:id="importFilesBtn" layoutX="226.0" layoutY="57.0" onAction="#onImportFilesBtnClick" text="Import Files to memory" />
+        <Label fx:id="status" layoutX="221.0" layoutY="136.0" text="No of records:  | No of Errors:" />
+        <TextArea fx:id="invalidArea" layoutX="17.0" layoutY="160.0" prefHeight="79.0" prefWidth="566.0" />
+        <Label layoutX="13.0" layoutY="270.0" text="Enter the valid top most record here to edit:" />
+        <TextField fx:id="correctionField" layoutX="13.0" layoutY="288.0" prefHeight="26.0" prefWidth="566.0" />
+        <Button fx:id="revalidateRecordsBtn" layoutX="217.0" layoutY="326.0" onAction="#OnRevalidateRecordsBtnClick" text="Edit and Revalidate records" />
+        <Button fx:id="backBtn" layoutX="217.0" layoutY="360.0" onAction="#onBackBtnClick" text="Back" />
+        <Button fx:id="exitBtn" layoutX="340.0" layoutY="360.0" onAction="#onExitBtnClick" text="Exit" />
+        <Label layoutX="413.0" layoutY="100.0" text="✅Transaction csv" />
+        <Label layoutX="260.0" layoutY="100.0" text="✅Student csv" />
+        <Label layoutX="94.0" layoutY="100.0" text="✅Book csv" />
+    </children>
+</AnchorPane>
