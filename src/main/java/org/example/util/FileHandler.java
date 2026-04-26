@@ -2,6 +2,7 @@ package org.example.util;
 
 import java.io.*;
 import java.util.*;
+//File handler for csv reading support
 
 public class FileHandler {
 
