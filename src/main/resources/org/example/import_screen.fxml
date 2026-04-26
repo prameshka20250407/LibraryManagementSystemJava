@@ -16,7 +16,7 @@
         <TextArea fx:id="invalidArea" layoutX="17.0" layoutY="160.0" prefHeight="79.0" prefWidth="566.0" />
         <Label layoutX="13.0" layoutY="270.0" text="Enter the valid top most record here to edit:" />
         <TextField fx:id="correctionField" layoutX="13.0" layoutY="288.0" prefHeight="26.0" prefWidth="566.0" />
-        <Button fx:id="revalidateRecordsBtn" layoutX="217.0" layoutY="326.0" onAction="#OnRevalidateRecordsBtnClick" text="Edit and Revalidate records" />
+        <Button fx:id="revalidateRecordsBtn" layoutX="217.0" layoutY="321.0" onAction="#OnRevalidateRecordsBtnClick" text="Edit and Revalidate records" />
         <Button fx:id="backBtn" layoutX="217.0" layoutY="360.0" onAction="#onBackBtnClick" text="Back" />
         <Button fx:id="exitBtn" layoutX="340.0" layoutY="360.0" onAction="#onExitBtnClick" text="Exit" />
         <Label layoutX="413.0" layoutY="100.0" text="✅Transaction csv" />
