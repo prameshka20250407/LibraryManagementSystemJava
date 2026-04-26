@@ -5,6 +5,7 @@ import javafx.scene.control.*;
 import org.example.manager.BookManager;
 import org.example.model.Book;
 import java.util.List;
+//FXML gui controller class
 
 public class SearchController {
 

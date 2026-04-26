@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import org.example.manager.*;
 import org.example.util.*;
+//FXML gui controller class
 
 public class ImportController {
 

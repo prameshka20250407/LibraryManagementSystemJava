@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import org.example.manager.BookManager;
+//FXML gui controller class
 
 public class AverageController {
 

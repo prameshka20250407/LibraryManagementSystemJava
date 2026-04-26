@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import org.example.manager.TransactionManager;
 import org.example.util.Validation;
+//FXML gui controller class
 
 public class ReportController {
 

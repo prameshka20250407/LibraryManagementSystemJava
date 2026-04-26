@@ -3,7 +3,7 @@ package org.example.gui.controllers;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-
+//FXML gui controller class
 
 public class MainMenuController {
 
