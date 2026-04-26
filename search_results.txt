@@ -2,4 +2,3 @@ PYTHON,1,300.0
 JAVA,0,400.0
 Calculus,2,400.0
 Maths,0,300.0
-PYTHON,1,300.0
